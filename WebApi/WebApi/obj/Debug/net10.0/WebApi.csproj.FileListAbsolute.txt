@@ -271,3 +271,4 @@ D:\Learning\DotNetReact\WebApi\WebApi\bin\Debug\net10.0\ru\Microsoft.CodeAnalysi
 D:\Learning\DotNetReact\WebApi\WebApi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Learning\DotNetReact\WebApi\WebApi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Learning\DotNetReact\WebApi\WebApi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Learning\DotNetReact\WebApi\WebApi\obj\Debug\net10.0\WebApi.sourcelink.json

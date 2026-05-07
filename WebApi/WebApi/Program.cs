@@ -5,6 +5,19 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+var myAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: myAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.WithOrigins("http://localhost:3000") // Your frontend URLs
+                                .AllowAnyHeader()
+                                .AllowAnyMethod();
+                      });
+});
+
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<DonationDBContext>(options => 
@@ -23,6 +36,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(myAllowSpecificOrigins);
 
 app.UseAuthorization();
 

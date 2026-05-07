@@ -1,0 +1,25 @@
+# Visual Studio / VS Code user files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET build output
+**/bin/
+**/obj/
+TestResults/
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# Node / React
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
