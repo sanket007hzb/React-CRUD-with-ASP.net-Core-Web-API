@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Learning\\DotNetReact\\WebApi\\",
+  "WorkspaceRootPath": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|d:\\learning\\dotnetreact\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|d:\\learning\\dotnetreact\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|d:\\learning\\dotnetreact\\webapi\\webapi\\models\\dcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|d:\\learning\\dotnetreact\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\models\\dcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\dcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|d:\\learning\\dotnetreact\\webapi\\webapi\\controllers\\dcandidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|d:\\learning\\dotnetreact\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\controllers\\dcandidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\dcandidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|d:\\learning\\dotnetreact\\webapi\\webapi\\models\\donationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|d:\\learning\\dotnetreact\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\models\\donationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\donationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DCandidateController.cs",
-              "DocumentMoniker": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\Controllers\\DCandidateController.cs",
+              "DocumentMoniker": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\Controllers\\DCandidateController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\DCandidateController.cs",
-              "ToolTip": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\Controllers\\DCandidateController.cs",
+              "ToolTip": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\Controllers\\DCandidateController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\DCandidateController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAxwBYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -44,11 +44,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\Program.cs",
+              "DocumentMoniker": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\Program.cs",
+              "ToolTip": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T06:08:32.563Z",
               "EditorCaption": ""
@@ -57,9 +57,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DCandidate.cs",
-              "DocumentMoniker": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\Models\\DCandidate.cs",
+              "DocumentMoniker": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\Models\\DCandidate.cs",
               "RelativeDocumentMoniker": "WebApi\\Models\\DCandidate.cs",
-              "ToolTip": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\Models\\DCandidate.cs",
+              "ToolTip": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\Models\\DCandidate.cs",
               "RelativeToolTip": "WebApi\\Models\\DCandidate.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAIwBIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -69,9 +69,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "DonationDBContext.cs",
-              "DocumentMoniker": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\Models\\DonationDBContext.cs",
+              "DocumentMoniker": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\Models\\DonationDBContext.cs",
               "RelativeDocumentMoniker": "WebApi\\Models\\DonationDBContext.cs",
-              "ToolTip": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\Models\\DonationDBContext.cs",
+              "ToolTip": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\Models\\DonationDBContext.cs",
               "RelativeToolTip": "WebApi\\Models\\DonationDBContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

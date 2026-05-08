@@ -6236,11 +6236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\sanke\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\obj\\",
+      "outputPath": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

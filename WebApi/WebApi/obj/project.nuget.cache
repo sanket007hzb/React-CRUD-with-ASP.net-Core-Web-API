@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FBpMPgzkJTo=",
+  "dgSpecHash": "l6ttWxeE4/c=",
   "success": true,
-  "projectFilePath": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\WebApi.csproj",
+  "projectFilePath": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sanke\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\sanke\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
@@ -137,9 +137,9 @@
       "code": "NU1510",
       "level": "Warning",
       "message": "PackageReference Microsoft.AspNetCore.Cors will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
-      "projectPath": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\WebApi.csproj",
+      "filePath": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\WebApi.csproj",
       "libraryId": "Microsoft.AspNetCore.Cors",
       "targetGraphs": [
         "net10.0"
@@ -149,9 +149,9 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'NuGet.Packaging' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\WebApi.csproj",
+      "filePath": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\WebApi.csproj",
       "libraryId": "NuGet.Packaging",
       "targetGraphs": [
         "net10.0"
@@ -161,9 +161,9 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'NuGet.Protocol' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Learning\\DotNetReact\\WebApi\\WebApi\\WebApi.csproj",
+      "filePath": "D:\\Learning\\DotNetReact\\React-CRUD-with-ASP.net-Core-Web-API\\WebApi\\WebApi\\WebApi.csproj",
       "libraryId": "NuGet.Protocol",
       "targetGraphs": [
         "net10.0"
