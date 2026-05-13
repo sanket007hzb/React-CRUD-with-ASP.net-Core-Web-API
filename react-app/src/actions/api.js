@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { dCandidate } from '../reducers/dCandidate';
 
-const baseURL = 'https://localhost:44344/api/';
+const baseURL = 'http://localhost:5097/api/';
 
 export default {
     dCandidate(url = baseURL + 'DCandidate/') {
