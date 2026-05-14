@@ -1,7 +1,10 @@
 import { Grid, TextField, FormControl, InputLabel, Select, MenuItem, Button, FormHelperText } from '@mui/material';
 import { withStyles } from '@mui/styles';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import useForm from './useForm';
+import { connect } from 'react-redux';
+import * as actions from '../actions/dCandidate';
+import { toast } from 'react-toastify';
 
 const styles = theme => ({
     root: {
@@ -29,43 +32,59 @@ const initialFieldValues = {
 }
 
 const DcandidatesForm = ({classes, ...props}) => {
-    
-    const validate = (fieldvalues) => {
-        let temp = {}
-        if('fullName' in fieldvalues)
-            temp.fullName = fieldvalues.fullName ? "" : "This field is required."
-        if('mobile' in fieldvalues)
-            temp.mobile = fieldvalues.mobile ? "" : "This field is required."
-        if('bloodGroup' in fieldvalues)
-            temp.bloodGroup = fieldvalues.bloodGroup ? "" : "This field is required."
-        if('email' in fieldvalues)
-            temp.email = (/$^|.+@.+..+/).test(fieldvalues.email) ? "" : "Email is not valid."
+
+    const validate = (fieldValues = values) => {
+        let temp = { ...errors }
+        if('fullName' in fieldValues)
+            temp.fullName = fieldValues.fullName ? "" : "This field is required."
+        if('mobile' in fieldValues)
+            temp.mobile = fieldValues.mobile ? "" : "This field is required."
+        if('bloodGroup' in fieldValues)
+            temp.bloodGroup = fieldValues.bloodGroup ? "" : "This field is required."
+        if('email' in fieldValues)
+            temp.email = (/$^|.+@.+..+/).test(fieldValues.email) ? "" : "Email is not valid."
         setErrors({
             ...temp
         })
 
-        if(fieldvalues == values)
+        if(fieldValues === values)
         return Object.values(temp).every(x => x === "")
     }
     
     const { 
-            values,
+            values, 
             setValues,
             errors,
             setErrors,
-            handleInputChange
-    } = useForm(initialFieldValues, validate)
+            handleInputChange,
+            resetForm
+    } = useForm(initialFieldValues, validate, props.setCurrentId)
     
     //material-ui select
     const inputLabel = React.useRef(null)
 
     const handleSubmit = e => {
         e.preventDefault()
-        if(validate(values))
+        if(validate())
         {
-            window.alert('Validation succeeded!')
+            const onSuccess = () => {
+                resetForm()
+                toast.success("Submitted successfully")
+            }   
+            if(props.currentId == 0)
+                props.createDcandidate(values, onSuccess)
+            else
+                props.updateDcandidate(props.currentId, values, onSuccess)
         }
     }
+
+    useEffect(() => {
+        if(props.currentId != 0)
+            setValues({
+                ...props.DcandidateList.find(x => x.id === props.currentId)
+            })
+            setErrors({})
+    },[props.currentId])
 
     return (
         <form autoComplete="false" noValidate className={classes.root} onSubmit={handleSubmit}>
@@ -138,7 +157,7 @@ const DcandidatesForm = ({classes, ...props}) => {
                     />
                     <div>
                         <Button variant="contained" color="primary" type='submit' className={classes.smMargin}>Submit</Button>
-                        <Button variant="contained" className={classes.smMargin}>Reset</Button>
+                        <Button variant="contained" className={classes.smMargin} onClick={resetForm}>Reset</Button>
                     </div>
                 </Grid>
             </Grid>
@@ -146,4 +165,13 @@ const DcandidatesForm = ({classes, ...props}) => {
     );
 }
 
-export default withStyles(styles)(DcandidatesForm);
+const mapStateToProps = state => ({
+    DcandidateList: state.dCandidate.list
+})
+
+const mapActionToProps = {
+    createDcandidate: actions.create,
+    updateDcandidate: actions.update
+}
+
+export default connect(mapStateToProps, mapActionToProps)(withStyles(styles)(DcandidatesForm));

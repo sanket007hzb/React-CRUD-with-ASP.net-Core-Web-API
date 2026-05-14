@@ -4,6 +4,8 @@ import { Provider } from 'react-redux';
 import Dcandidates from './components/DCandidates';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { ThemeProvider as StylesThemeProvider } from '@mui/styles';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const theme = createTheme();
 
@@ -14,6 +16,7 @@ function App() {
         <StylesThemeProvider theme={theme}>
           <div className="App">
             <Dcandidates />
+            <ToastContainer autoClose={3000} />
           </div>
         </StylesThemeProvider>
       </ThemeProvider>
